@@ -1,7 +1,13 @@
-import "./App.css";
+import UseMemo from './Level/Level_1/UseMemo.jsx';
+
+
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <UseMemo />
+    </div>
+  );
 }
 
 export default App;
