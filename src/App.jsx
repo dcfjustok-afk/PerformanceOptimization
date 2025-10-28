@@ -1,11 +1,12 @@
-import UseMemo from './Level/Level_1/UseMemo.jsx';
+
+import UserProfile from './Level/Level_2/ComponentSplit.jsx';
 
 
 
 function App() {
   return (
     <div>
-      <UseMemo />
+      <UserProfile user={{ avatar: 'https://example.com/avatar.jpg', info: { name: '张三' } }} />
     </div>
   );
 }
