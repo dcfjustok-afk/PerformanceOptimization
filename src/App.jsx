@@ -1,12 +1,11 @@
-
-import UserProfile from './Level/Level_2/ComponentSplit.jsx';
+import LazyDome from './Level/Level_3/LazyDome.jsx';
 
 
 
 function App() {
   return (
     <div>
-      <UserProfile user={{ avatar: 'https://example.com/avatar.jpg', info: { name: '张三' } }} />
+      <LazyDome></LazyDome>
     </div>
   );
 }
